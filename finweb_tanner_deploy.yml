@@ -7,17 +7,17 @@ trigger: none
 
 variables:
   - name: projectName
-    value: '<<<YOUR AZURE DEVOPS PROJECT>>>'            # <-- Update this
+    value: 'Training-Student-011'            # <-- Update this
   - name: buildPipelineName
-    value: '<<<YOUR BUID PIPELINE>>>'          # <-- Update this
+    value: 'finweb_tanner_build.yml'          # <-- Update this
   - name: artifactName
     value: 'frontend'        
   - name: targetFile
     value: 'app.py'                             # Optional: Which file inside artifact to display
   - name: resourceGroup
-    value: '<<<YOUR RESSOURCE GROUP>>>'        # <-- Update this
+    value: 'Training-Student-011'        # <-- Update this
   - name: webAppName
-    value: '<<<YOUR WEB APP>>>'                # <-- Update this Azure Web App target
+    value: 'finweb-tanner'                # <-- Update this Azure Web App target
 
 steps:
 - script: |
