@@ -9,7 +9,7 @@ variables:
   - name: projectName
     value: 'Training-Student-011'            # <-- Update this
   - name: buildPipelineName
-    value: 'finweb_tanner_build.yml'          # <-- Update this
+    value: 'finweb_tanner_build'          # <-- Update this
   - name: artifactName
     value: 'frontend'        
   - name: targetFile
